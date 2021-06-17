@@ -45,5 +45,11 @@ Several helpful tools for offensive assessments in mac/cloud environments are do
 - Scour by Grines (Brian Stegs) (https://github.com/grines/scour)
 - Hashiscan by Grines (Brian Stegs) (https://github.com/grines/hashiscan)
 
+The following go binaries are dropped at ~/go/bin:
+- evilginx2
+- gitleaks
+- hashiscan
+- scour
 
+The rest of the tools above will be available at /arsenal
 
