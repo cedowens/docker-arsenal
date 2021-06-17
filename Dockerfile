@@ -12,4 +12,6 @@ RUN go get github.com/grines/hashiscan
 RUN cd pacu && pip3 install -U pip && pip3 install boto3
 WORKDIR /arsenal
 RUN cd Slackhound && pip3 install -r requirements.txt
+WORKDIR /arsenal
+RUN cd SlackPirate && pip3 install -r requirements.tt
 RUN apt install dirb
