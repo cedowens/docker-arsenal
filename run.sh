@@ -2,6 +2,7 @@
 mkdir -p arsenal && cp Dockerfile arsenal/Dockerfile && cd arsenal
 git clone https://github.com/FSecureLABS/Jamf-Attack-Toolkit
 git clone https://github.com/initstring/cloud_enum
+git clone https://github.com/D00MFist/PersistentJXA
 git clone https://github.com/RhinoSecurityLabs/pacu
 git clone https://github.com/cedowens/aws_key_triage_tool
 git clone https://github.com/cedowens/keygrabber
@@ -11,6 +12,8 @@ git clone https://github.com/antman1p/GDir-Thief
 git clone https://github.com/antman1p/Conf-Thief
 git clone https://github.com/BojackThePillager/Slackhound
 git clone https://github.com/emtunc/SlackPirate
+git clone https://github.com/ustayready/CredKing
+git clone https://github.com/Accenture/jenkins-attack-framework
 
 docker build --no-cache . -t mac-arsenal
 docker volume create arsenal
