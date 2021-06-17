@@ -1,10 +1,7 @@
 #!/bin/bash
 mkdir -p arsenal && cp Dockerfile arsenal/Dockerfile && cd arsenal
-git clone https://github.com/cedowens/MacC2
-git clone https://github.com/its-a-feature/Mythic
 git clone https://github.com/FSecureLABS/Jamf-Attack-Toolkit
 git clone https://github.com/initstring/cloud_enum
-git clone https://github.com/D00MFist/PersistentJXA
 git clone https://github.com/RhinoSecurityLabs/pacu
 git clone https://github.com/cedowens/aws_key_triage_tool
 git clone https://github.com/cedowens/keygrabber
