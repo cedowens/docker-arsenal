@@ -15,7 +15,7 @@ git clone https://github.com/antman1p/Conf-Thief
 git clone https://github.com/BojackThePillager/Slackhound
 git clone https://github.com/emtunc/SlackPirate
 
-docker build . --no-cache -t mac-arsenal
+docker build --no-cache . -t mac-arsenal
 docker volume create arsenal
 sudo docker run --rm --network="host" -v arsenal:/arsenal -ti mac-arsenal
 cd .. && rm -rf arsenal
