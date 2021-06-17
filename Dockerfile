@@ -10,4 +10,6 @@ RUN go get github.com/kgretzky/evilginx2
 RUN go get github.com/grines/scour
 RUN go get github.com/grines/hashiscan
 RUN cd pacu && pip3 install -U pip && pip3 install boto3
+WORKDIR /arsenal
+RUN cd Slackhound && pip3 install -r requirements.txt
 RUN apt install dirb
