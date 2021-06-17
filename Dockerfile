@@ -15,3 +15,5 @@ RUN cd Slackhound && pip3 install -r requirements.txt
 WORKDIR /arsenal
 RUN cd SlackPirate && pip3 install -r requirements.txt
 RUN apt install dirb
+WORKDIR /arsenal
+RUN cd jenkins-attack-framework && pip3 install -r requirements.txt
