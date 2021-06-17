@@ -9,6 +9,9 @@ git clone https://github.com/RhinoSecurityLabs/pacu
 git clone https://github.com/cedowens/aws_key_triage_tool
 git clone https://github.com/cedowens/keygrabber
 git clone https://github.com/cedowens/JenkinsHunter
+git clone https://github.com/antman1p/GD-Thief
+git clone https://github.com/antman1p/GDir-Thief
+git clone https://github.com/antman1p/Conf-Thief
 
 docker build . --no-cache -t mac-arsenal
 docker volume create arsenal
