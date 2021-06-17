@@ -12,6 +12,7 @@ git clone https://github.com/cedowens/JenkinsHunter
 git clone https://github.com/antman1p/GD-Thief
 git clone https://github.com/antman1p/GDir-Thief
 git clone https://github.com/antman1p/Conf-Thief
+git clone https://github.com/BojackThePillager/Slackhound
 
 docker build . --no-cache -t mac-arsenal
 docker volume create arsenal
