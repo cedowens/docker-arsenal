@@ -60,3 +60,16 @@ The following go binaries are dropped at ~/go/bin:
 
 The rest of the tools above will be available at /arsenal
 
+## Shared Volume
+run.sh creates a shared volume named "arsenal". If run from a linux host, the volume will be at:
+
+**/var/lib/docker/volumes/arsenal/_data**
+
+You can confirm this by running
+
+> docker inspect arsenal
+
+You can cd into the directory above from the host OS in order to access files within the container.
+
+## Network
+run.sh sets the network config value to **--network="host"** so that any port you bind to within the container will also bind on the host OS
