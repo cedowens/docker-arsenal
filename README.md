@@ -29,7 +29,7 @@ First, I recommend you follow the steps at https://docs.docker.com/engine/securi
 
 ## To Run docker-arsenal
 > chmod +x run.sh
-> ./run.sh
+> sudo ./run.sh
 
 ## What is installed in docker-arsenal
 Several helpful tools for offensive assessments in mac/cloud environments are downloaded/installed:
