@@ -4,12 +4,9 @@ RUN export DEBIAN_FRONTEND=noninteractive && apt install -y golang-go
 RUN mkdir -p arsenal
 WORKDIR /arsenal
 ADD . /arsenal/
-RUN pip3 install -r Jamf-Attack-Toolkit/requirements.txt && pip3 install -r cloud_enum/requirements.txt 
-RUN go get github.com/0xsha/CloudBrute && cd CloudBrute && go build && cd .. 
-RUN go get github.com/zricethezav/gitleaks && cd gitleaks && go build && cd ..
-RUN go get github.com/kgretzky/evilginx2 && cd evilginx2 && go build && cd ..
-RUN go get github.com/grines/scour && cd scour && go build && cd ..
-RUN go get github.com/grines/hashiscan && cd hashiscan && go build && cd ..
-RUN cd JenkinsHunter && pipe3 install -r requirements.txt
+RUN pip3 install -r Jamf-Attack-Toolkit/requirements.txt && pip3 install -r cloud_enum/requirements.txt && pip3 install -r JenkinsHunter/requirements.txt
+RUN go get github.com/zricethezav/gitleaks
+RUN go get github.com/kgretzky/evilginx2
+RUN go get github.com/grines/scour
+RUN go get github.com/grines/hashiscan
 RUN cd pacu && pip3 install -U pip && pip3 install boto3
-
