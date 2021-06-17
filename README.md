@@ -1,5 +1,5 @@
 # docker-arsenal
-Spins up a docker container with some helpful tools/utilities for offensive security in macOS/cloud environments
+Spins up a docker container with some helpful tools/utilities for offensive security in macOS/cloud environments. Also installs the needed dependencies for each tool/utility during docker setup.
 
 ## Pre-req
 Ensure docker is installed and running (https://docs.docker.com/get-docker/)
@@ -30,6 +30,8 @@ First, I recommend you follow the steps at https://docs.docker.com/engine/securi
 ## To Run docker-arsenal
 > chmod +x run.sh
 > sudo ./run.sh
+
+You will be dropped into the container's /arsenal folder upon completion. This Dockerfile takes care of installing the dependencies needed by each tool during docker setup so you can simply navigate to the tool's directory and run the tool (or run the go binaries dropped at ~/go/bin)
 
 ## What is installed in docker-arsenal
 Several helpful tools for offensive assessments in mac/cloud environments are downloaded/installed:
