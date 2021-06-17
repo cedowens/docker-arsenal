@@ -48,6 +48,7 @@ Several helpful tools for offensive assessments in mac/cloud environments are do
 - GDir-Thief by Antonio Piazza (https://github.om/antman1p/GDir-Thief)
 - Conf-Thief by Antonio Piazza (https://github.com/antman1p/Conf-Thief)
 - Slackhound by Brad Richardson (https://github.com/BojackThePillager/Slackhound)
+- SlackPirate by emtunc (https://github.com/emtunc/SlackPirate)
 - nmap
 - dirb (web directory brute forcer)
 
