@@ -29,6 +29,7 @@ First, I recommend you follow the steps at https://docs.docker.com/engine/securi
 
 ## To Run docker-arsenal
 > chmod +x run.sh
+> 
 > sudo ./run.sh
 
 You will be dropped into the container's /arsenal folder upon completion. This Dockerfile takes care of installing the dependencies needed by each tool during docker setup so you can simply navigate to the tool's directory and run the tool (or run the go binaries dropped at ~/go/bin)
