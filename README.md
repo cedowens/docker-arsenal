@@ -44,6 +44,11 @@ Several helpful tools for offensive assessments in mac/cloud environments are do
 - Evilginx2 by kgretzky (https://github.com/kgretzky/evilginx2)
 - Scour by Grines (Brian Stegs) (https://github.com/grines/scour)
 - Hashiscan by Grines (Brian Stegs) (https://github.com/grines/hashiscan)
+- GD-Thief by Antonio Piazza (https://github.com/antman1p/GD-Thief)
+- GDir-Thief by Antonio Piazza (https://github.om/antman1p/GDir-Thief)
+- Conf-Thief by Antonio Piazza (https://github.com/antman1p/Conf-Thief)
+- nmap
+- dirb (web directory brute forcer)
 
 The following go binaries are dropped at ~/go/bin:
 - evilginx2
