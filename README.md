@@ -7,26 +7,6 @@ Ensure docker is installed and running (https://docs.docker.com/get-docker/)
 ## Running Docker Rootless
 First, I recommend you follow the steps at https://docs.docker.com/engine/security/rootless/ to ensure you are not running your container as root:
 
-- stop docker
-
-> systemctl stop docker
-
-- if /usr/bin/dockerd-rootless-setuptool.sh is presnt:
-
-> ./dockerd-rootless-setuptool.sh install
-
-- if that file is not present:
-
-> curl -fsSL https://get.docker.com/rootless | sh
-
-- Start docker:
-
-> systemctl --user start docker
-
-- Use rootless context:
-
-> docker context use rootless
-
 ## To Run docker-arsenal
 > chmod +x run.sh
 > 
