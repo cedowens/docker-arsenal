@@ -5,7 +5,7 @@ Spins up a docker container with some helpful tools/utilities for offensive secu
 Ensure docker is installed and running (https://docs.docker.com/get-docker/)
 
 ## Running Docker Rootless
-First, I recommend you follow the steps at https://docs.docker.com/engine/security/rootless/ to ensure you are not running your container as root:
+Optional: You can follow these steps to set up your docker container to run as a non-root user: https://docs.docker.com/engine/security/rootless/ 
 
 ## To Run docker-arsenal
 > chmod +x run.sh
