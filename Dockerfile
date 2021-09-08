@@ -5,7 +5,6 @@ RUN mkdir -p arsenal
 WORKDIR /arsenal
 ADD . /arsenal/
 RUN pip3 install -r Jamf-Attack-Toolkit/requirements.txt && pip3 install -r cloud_enum/requirements.txt && pip3 install -r JenkinsHunter/requirements.txt
-RUN git clone https://github.com/zricethezav/gitleaks && cd gitleaks && go build
 RUN go get github.com/kgretzky/evilginx2
 RUN go get github.com/grines/scour
 RUN go get github.com/grines/hashiscan
