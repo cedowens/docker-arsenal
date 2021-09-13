@@ -7,7 +7,15 @@ Ensure docker is installed and running (https://docs.docker.com/get-docker/)
 ## Running Docker Rootless
 Optional: You can follow these steps to set up your docker container to run as a non-root user: https://docs.docker.com/engine/security/rootless/ 
 
-## To Run docker-arsenal
+## To Run docker-arsenal from Docker Hub
+
+> docker pull cedowens/docker-arsenal:latest
+
+> docker run --rm -v arsenal:/arsenal -ti cedowens/docker-arsenal:latest /bin/bash
+
+Link to docker hub repo: https://hub.docker.com/repository/docker/cedowens/docker-arsenal/general
+
+## To Run docker-arsenal from github
 > chmod +x run.sh
 > 
 > sudo ./run.sh
