@@ -23,7 +23,6 @@ Several helpful tools for offensive assessments in mac/cloud environments are do
 - My AWS Key Triage Tool (https://github.com/cedowens/aws_key_triage_tool)
 - My Keygrabber Tool (https://github.com/cedowens/keygrabber)
 - My JenkinsHunter Tool (https://github.com/cedowens/JenkinsHunter)
-- Gitleaks by zricethezav (https://github.com/zricethezav/gitleaks)
 - Evilginx2 by kgretzky (https://github.com/kgretzky/evilginx2)
 - Scour by Grines (Brian Stegs) (https://github.com/grines/scour)
 - Hashiscan by Grines (Brian Stegs) (https://github.com/grines/hashiscan)
