@@ -11,7 +11,7 @@ Optional: You can follow these steps to set up your docker container to run as a
 
 > docker pull cedowens/docker-arsenal:latest
 
-> docker run --rm -v arsenal:/arsenal -ti cedowens/docker-arsenal:latest /bin/bash
+> docker run --rm --network="host" -v arsenal:/arsenal -ti cedowens/docker-arsenal:latest /bin/bash
 
 Link to docker hub repo: https://hub.docker.com/repository/docker/cedowens/docker-arsenal/general
 
